@@ -26,3 +26,37 @@ https://cdn.pixabay.com/download/audio/2021/09/06/audio_cb1c3e82d9.mp3");documen
 
 
 */
+
+funciton iniciar(){
+colocando_painel()
+}
+iniciar()
+
+function colocando_painel(){
+try{
+// cria uma div responsiva
+const div = document.createElement('div');
+div.style.position = 'fixed';
+div.style.top = '0vmin';
+div.style.left = '0vmin';
+div.style.width = '20%';
+div.style.height = '10%';
+div.style.backgroundColor = 'blue';
+
+// cria os elementos de texto para HP e GOLD
+const hpText = document.createElement('p');
+hpText.innerText = '❤️ : 100'; // substitui "HP" por um emoji de coração
+const goldText = document.createElement('p');
+goldText.innerText = '💰 : 10'; // substitui "GOLD" por um emoji de moeda
+
+// adiciona os elementos de texto à div
+div.appendChild(hpText);
+div.appendChild(goldText);
+
+// adiciona a div ao body do documento
+document.body.appendChild(div);
+
+}catch(e){
+console.log(e)
+}
+}
